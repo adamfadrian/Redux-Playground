@@ -4,6 +4,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
+run the db.json from json-server
+json-server --watch db.json --port 3004
+
 ```bash
 npm run dev
 # or
