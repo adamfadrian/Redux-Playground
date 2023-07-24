@@ -1,8 +1,8 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import NavbarMovie from '@/components/NavbarMovie'
+import NavbarMovie from '@/components/movie/NavbarMovie'
 import React, { useCallback, useEffect, useState } from 'react'
 import Search from '@/components/Search'
-import CardMovie from '@/components/CardMovie'
+import CardMovie from '@/components/movie/CardMovie'
 import axios from 'axios'
 import Movie from '@/utils/type'
 import Loading from '@/components/Loading'

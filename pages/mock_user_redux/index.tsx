@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import DetailUser from '@/components/DetailUser'
-import ListUser from '@/components/ListUser'
+import DetailUser from '@/components/user/DetailUser'
+import ListUser from '@/components/user/ListUser'
 import { userDetailSelector } from '@/redux/reducers/detail/userDetailSelector'
 import { clearUserDetails, detailUser } from '@/redux/reducers/detail/userDetailSlice'
 import axios from 'axios'

@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import CardMovie from '@/components/CardMovie'
+import CardMovie from '@/components/movie/CardMovie'
 import { RootState } from '@/redux/store/store'
 import Movie from '@/utils/type'
 import React from 'react'
