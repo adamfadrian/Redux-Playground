@@ -5,8 +5,10 @@ export interface Cart {
     id?: number;
     category?: string;
     image?: string;
-    price?: number;
+    price: number;
     title?: string
+    quantity: number;
+
 }
 
 interface CartState {

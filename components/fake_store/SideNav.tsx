@@ -24,7 +24,7 @@ const SideNav: FC<Props> = ({ isOpen = false, children, onClose }) => {
             <h1 className='text-black text-3xl'>CART</h1>
             <button className='text-xl text-black border border-black w-10 rounded flex justify-center' onClick={handleClose}>x</button>
           </div>
-          <div className='flex flex-col'>
+          <div className='flex flex-col gap-3'>
             {children}
           </div>
         </div>
