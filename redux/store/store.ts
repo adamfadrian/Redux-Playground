@@ -1,4 +1,4 @@
-import { combineReducers, configureStore } from "@reduxjs/toolkit";
+import { combineReducers, configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
 import reducers from "@/redux/reducers/favorite/favoriteSlice";
 import storage from "redux-persist/lib/storage";
 import { persistStore, persistReducer } from "redux-persist";
@@ -10,6 +10,9 @@ const persistConfig = {
   key: "root",
   storage,
 };
+const customizedMiddleware = getDefaultMiddleware({
+  serializableCheck: false
+})
 
 const rootReducer = combineReducers({
   favorite: persistReducer(persistConfig, reducers.state),
@@ -19,7 +22,8 @@ const rootReducer = combineReducers({
 })
 
 const store = configureStore({
-  reducer: rootReducer
+  reducer: rootReducer,
+  middleware: customizedMiddleware
 });
 
 const persistor = persistStore(store);

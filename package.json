@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db": "json-server --watch db.json --port 3004"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -25,6 +26,7 @@
     "postcss": "8.4.26",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.45.4",
     "react-icons": "^4.10.1",
     "react-redux": "^8.1.1",
     "redux-persist": "^6.0.0",

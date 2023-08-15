@@ -7,10 +7,16 @@
       "email": "user1@gmail.com"
     },
     {
-      "email": "admin@a.com",
-      "password": "123",
-      "username": "admin",
-      "id": 4
+      "email": "asdasd",
+      "username": "asdasd",
+      "password": "asdasd",
+      "id": 2
+    },
+    {
+      "email": "asdasd",
+      "username": "asdddddddd",
+      "password": "dasssssssssss",
+      "id": 3
     }
   ],
   "register": []
